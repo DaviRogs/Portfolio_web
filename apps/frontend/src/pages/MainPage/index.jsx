@@ -7,7 +7,9 @@ import {
   ContainerDoisLados,
   ContainerEsquerda,
   SobreContainer,
+  EuImagem,
 } from "./styles";
+import Eu from "../../assets/images/euWeb.png";
 
 function MainPage() {
   return (
@@ -16,6 +18,7 @@ function MainPage() {
       <ContainerDoisLados>
         <ContainerEsquerda>
           <Circle />
+          <EuImagem src={Eu} />
         </ContainerEsquerda>
         <ContainerDireita>FLKSDKFM</ContainerDireita>
       </ContainerDoisLados>

@@ -19,6 +19,7 @@ export const ContainerDoisLados = styled.div`
 `;
 
 export const ContainerEsquerda = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,10 +31,21 @@ export const ContainerEsquerda = styled.div`
 `;
 
 export const Circle = styled.div`
-  width: 20rem;
-  height: 20rem;
+  position: relative;
+  width: 70%;
+  height: 70%;
   background-color: #E6992F;
   border-radius: 50%;
+`;
+
+export const EuImagem = styled.img`
+  position: absolute;
+  width: 25rem;
+  height: 25rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 `;
 
 export const ContainerDireita = styled.div`
@@ -42,7 +54,6 @@ export const ContainerDireita = styled.div`
   align-items: center;
   width: 50%;
   height: 100vh;
-  background-color: #1F1A24;
   color: white;
 `;
 
