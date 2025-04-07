@@ -5,7 +5,7 @@ export const NavbarContainer = styled.header`
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(33, 33, 33, 1);
+  background: rgba(33, 33, 33, 0.99);
   color: white;
   padding: 1rem;
   display: flex;
