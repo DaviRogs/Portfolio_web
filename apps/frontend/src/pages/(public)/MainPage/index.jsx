@@ -1,5 +1,3 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
 import {
   Circle,
   Container,
@@ -12,24 +10,23 @@ import {
   TitleTwo,
   ContainerAjuste,
 } from "./styles";
-import Eu from "../../assets/images/euWeb.png";
-import Icon1 from "../../assets/svgs/icon1.svg";
-import Icon2 from "../../assets/svgs/icon2.svg";
-import MyName from "../../assets/svgs/myName.svg";
+import Eu from "../../../assets/images/euWeb.png";
+import Icon1 from "../../../assets/svgs/icon1.svg";
+import Icon2 from "../../../assets/svgs/icon2.svg";
+import MyName from "../../../assets/svgs/myName.svg";
 
 function MainPage() {
   return (
     <Container>
-      <Navbar />
       <ContainerDoisLados>
         <ContainerEsquerda>
           <img
             src={Icon1}
             style={{
               position: "relative",
-              right: "20vw",
-              top: "20vh",
-              width: "7em",
+              right: "15vw",
+              top: "10vh",
+              width: "5em",
               height: "auto",
               zIndex: 2,
             }}
@@ -65,7 +62,7 @@ function MainPage() {
             <TitleTwo> bem vindo</TitleTwo>
             <Title>!</Title>
           </ContainerAjuste>
-          <Title>Engeheiro de Software na</Title>
+          <Title>Engenheiro de Software na</Title>
           <TitleTwo>UnB</TitleTwo>
         </ContainerDireita>
       </ContainerDoisLados>

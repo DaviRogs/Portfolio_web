@@ -1,7 +1,34 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Righteous&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #212121;
+:root {
+  --black-color: #212121;
+  --orangellow-color: #E6992F;
+  --limon-color: #FFFFFF;
+  --limon-color: #B2FF00;
+  --white-color: #FFFFFF;
+
+  --bold-font: 400;
+  --normal-font: 200;
+  --light-font: 100;
+
+  --title-font: 'Figtree', sans-serif;
+  --text-font: 'Nunito', sans-serif;
+}
+
+*{
+  box-sizing: border-box;;
+}
+
+body{
+  font-family: var(--title-font);
+  font-style: normal;
+  background: var(--black-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
 }

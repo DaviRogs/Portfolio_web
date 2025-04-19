@@ -1,10 +1,14 @@
-import "./App.css";
-import MainPage from "./pages/MainPage";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import PublicRoutes from "./routes/PublicRoutes";
 
 function App() {
   return (
     <>
-      <MainPage />
+      <Router>
+        <Routes>
+          <Route path="/*" element={<PublicRoutes />} />
+        </Routes>
+      </Router>
     </>
   );
 }

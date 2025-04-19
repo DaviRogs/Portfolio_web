@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: relative;
   display: flex;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
 `;
 
 export const ContainerDoisLados = styled.div`
